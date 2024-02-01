@@ -1,20 +1,25 @@
-[![](https://jitpack.io/v/JamalMulla/ComposePrefs3.svg)](https://jitpack.io/#JamalMulla/ComposePrefs3)
+[![](https://jitpack.io/v/newfla/ComposePrefs3Next.svg)](https://jitpack.io/#newfla/ComposePrefs3Next)
 
-# ComposePrefs3
+# Disclaimer
+
+⚠️: This repo is an active developed fork of [JamalMulla/ComposePrefs3](https://github.com/JamalMulla/ComposePrefs3)
+
+
+# ComposePrefs3Next
 
 This is the M3 version of ComposePrefs. The M2 version can be found [here](https://github.com/JamalMulla/ComposePrefs/).
 
 
 ComposePrefs3 is a preferences library for Jetpack Compose which makes it easy to implement
 preferences/settings in your Compose Android app. Preferences are created and positioned using an
-intuitive and easy to use API which follows a similar design to the existing Material3 Composables.
+intuitive and easy to use API which follows a similar design to the existing Material3 Composable.
 ComposePrefs3
 uses [DataStore](https://developer.android.com/topic/libraries/architecture/datastore) to store the
 actual preference data.
 
 This repository provides a sample application in which creation and use of each preference
 composable is demonstrated. The main settings screen can be
-found [here](https://github.com/JamalMulla/ComposePrefs/blob/master/app/src/main/java/com/jamal/composeprefssample/SettingsScreen.kt)
+found [here](https://github.com/newfla/ComposePrefs3Next/blob/main/app/src/main/java/com/jamal/composeprefs3sample/SettingsScreen.kt)
 .
 
 ## Screenshots of this sample app
@@ -30,7 +35,7 @@ found [here](https://github.com/JamalMulla/ComposePrefs/blob/master/app/src/main
     <img src="/img/6.jpg?raw=true" width="150"/>
 </p>
 
-## Currently supported preference composables
+## Currently supported preference composable
 
 - TextPref: Basic preference which only displays text and can be clicked on.
 - CheckBoxPref: Preference with a trailing CheckBox which can be (un)checked.
@@ -94,7 +99,7 @@ prefsGroup({
 }
 ```
 
-## Composables
+## Composable
 
 Each preference composable excluding `TextPref` has a mandatory `key` parameter. This is the key
 that will be used in the DataStore and is equivalent to the `key` used in previous Android
@@ -219,7 +224,7 @@ maven { url "https://jitpack.io" }
 and in your module `build.gradle` file add the dependencies
 
 ``` groovy
-implementation "com.github.JamalMulla:ComposePrefs3:<version>" // Current is 1.0.4
+implementation "com.github.newfla:ComposePrefs3Next:<version>" // Current is 1.0.5
 implementation "androidx.datastore:datastore-preferences:1.0.0"
 ```
 
