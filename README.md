@@ -19,7 +19,7 @@ actual preference data.
 
 This repository provides a sample application in which creation and use of each preference
 composable is demonstrated. The main settings screen can be
-found [here](https://github.com/newfla/ComposePrefs3Next/blob/main/app/src/main/java/com/jamal/composeprefssample/SettingsScreen.kt)
+found [here](https://github.com/newfla/ComposePrefs3Next/blob/main/app/src/main/java/com/jamal/composeprefs3sample/SettingsScreen.kt)
 .
 
 ## Screenshots of this sample app
