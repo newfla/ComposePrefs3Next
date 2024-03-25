@@ -1,5 +1,7 @@
 [versions]
-androidx-compose-version = "1.6.3"
+androidx-compose-version = "1.6.4"
+gradle = "8.3.1"
+kotlin-gradle-plugin = "1.8.21"
 
 [libraries]
 activity-compose = {module = "androidx.activity:activity-compose", version = "1.8.2"}
@@ -7,6 +9,8 @@ compose_ui = {module = "androidx.compose.ui:ui", version.ref = "androidx-compose
 core-ktx = {module = "androidx.core:core-ktx", version = "1.12.0" }
 espresso-core = {module = "androidx.test.espresso:espresso-core", version = "3.5.1"}
 ext-junit = {module = "androidx.test.ext:junit", version = "1.1.5" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin-gradle-plugin" }
 lifecycle-runtime-ktx = {module = "androidx.lifecycle:lifecycle-runtime-ktx", version = "2.7.0"}
 material = {module = "com.google.android.material:material", version = "1.11.0"}
 material3 = {module = "androidx.compose.material3:material3", version = "1.2.1"}
