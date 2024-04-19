@@ -224,7 +224,7 @@ maven { url "https://jitpack.io" }
 and in your module `build.gradle` file add the dependencies
 
 ``` groovy
-implementation "com.github.newfla:ComposePrefs3Next:<version>" // Current is 1.0.5
+implementation "com.github.newfla:ComposePrefs3Next:<version>" // Current is 1.0.6
 implementation "androidx.datastore:datastore-preferences:1.0.0"
 ```
 

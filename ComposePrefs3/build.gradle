@@ -41,7 +41,7 @@ dependencies {
     implementation libs.compose.ui
     implementation libs.material3
     implementation libs.material3.window.size
-    implementation libs.implementation
+    implementation libs.datastore.preferences
 
     androidTestImplementation libs.ui.test.junit4
     testImplementation libs.junit
