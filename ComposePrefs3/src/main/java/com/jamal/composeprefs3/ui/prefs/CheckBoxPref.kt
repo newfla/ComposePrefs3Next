@@ -35,6 +35,7 @@ fun CheckBoxPref(
     onCheckedChange: ((Boolean) -> Unit)? = null,
     textColor: Color = MaterialTheme.colorScheme.onBackground,
     enabled: Boolean = true,
+    darkenOnDisable: Boolean = false,
     leadingIcon: @Composable (() -> Unit)? = null
 ) {
 
@@ -71,7 +72,7 @@ fun CheckBoxPref(
         summary = summary,
         leadingIcon = leadingIcon,
         enabled = enabled,
-        darkenOnDisable = true,
+        darkenOnDisable = darkenOnDisable,
         onClick = {
             checked = !checked
             edit(checked)

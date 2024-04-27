@@ -54,6 +54,7 @@ fun ListPref(
     selectionColor: Color = MaterialTheme.colorScheme.primary,
     buttonColor: Color = MaterialTheme.colorScheme.primary,
     enabled: Boolean = true,
+    darkenOnDisable: Boolean = false,
     entries: Map<String, String> = mapOf(), //TODO: Change to List?
 ) {
 
@@ -89,9 +90,10 @@ fun ListPref(
             useSelectedAsSummary && selected == null -> "Not Set"
             else -> summary
         },
+        darkenOnDisable = darkenOnDisable,
         modifier = modifier,
         textColor = textColor,
-        enabled = true,
+        enabled = enabled,
         onClick = { if (enabled) showDialog = !showDialog },
     )
 

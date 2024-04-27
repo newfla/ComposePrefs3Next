@@ -67,7 +67,8 @@ fun SettingsScreen() {
                         key = "cb3",
                         title = "Simple checkbox",
                         summary = "But it's disabled",
-                        enabled = false
+                        enabled = false,
+                        darkenOnDisable = true
                     )
                 }
                 prefsItem {
@@ -131,6 +132,15 @@ fun SettingsScreen() {
                         dialogBackgroundColor = MaterialTheme.colorScheme.secondary
                     )
                 }
+                prefsItem {
+                    EditTextPref(
+                        key = "et6",
+                        title = "EditTextexample",
+                        summary = "But with darkened alpha when disabled",
+                        enabled = false,
+                        darkenOnDisable = true
+                    )
+                }
             }
 
             prefsGroup("SliderPref") {
@@ -149,6 +159,14 @@ fun SettingsScreen() {
                         title = "Slider example with 4 steps and value shown",
                         steps = 4,
                         showValue = true
+                    )
+                }
+                prefsItem {
+                    SliderPref(
+                        key = "sp5",
+                        title = "Slider with darkened alpha when disabled",
+                        enabled = false,
+                        darkenOnDisable = true
                     )
                 }
             }
@@ -176,6 +194,15 @@ fun SettingsScreen() {
                             "1" to "Entry 2",
                             "2" to "Entry 3"
                         )
+                    )
+                }
+                prefsItem {
+                    DropDownPref(
+                        key = "dd3",
+                        title = "Disabled dropdown example",
+                        summary = "With darkened alpha",
+                        enabled = false,
+                        darkenOnDisable = true
                     )
                 }
             }
@@ -223,6 +250,15 @@ fun SettingsScreen() {
                         )
                     )
                 }
+                prefsItem {
+                    ListPref(
+                        key = "l3",
+                        title = "ListPref example",
+                        summary = "With darkened alpha when disabled",
+                        enabled = false,
+                        darkenOnDisable = true
+                    )
+                }
             }
 
             prefsGroup("MultiSelectListPref") {
@@ -267,6 +303,16 @@ fun SettingsScreen() {
                             "16" to "Entry 17",
                             "17" to "Entry 18"
                         )
+                    )
+                }
+
+                prefsItem {
+                    MultiSelectListPref(
+                        key = "msl3",
+                        title = "MultiSelectListPref",
+                        summary = "With darkened alpha when disabled",
+                        enabled = false,
+                        darkenOnDisable = true
                     )
                 }
             }

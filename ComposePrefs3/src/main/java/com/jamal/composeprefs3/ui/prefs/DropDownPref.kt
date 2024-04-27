@@ -47,6 +47,7 @@ fun DropDownPref(
     dropdownBackgroundColor: Color? = null,
     textColor: Color = MaterialTheme.colorScheme.onBackground,
     enabled: Boolean = true,
+    darkenOnDisable: Boolean = false,
     entries: Map<String, String> = mapOf()
 ) {
 
@@ -83,6 +84,7 @@ fun DropDownPref(
                 useSelectedAsSummary && value == null -> "Not Set"
                 else -> summary
             },
+            darkenOnDisable = darkenOnDisable,
             textColor = textColor,
             enabled = enabled,
             onClick = {

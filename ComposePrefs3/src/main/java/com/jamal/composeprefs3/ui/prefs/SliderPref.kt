@@ -46,6 +46,7 @@ fun SliderPref(
     steps: Int = 0,
     textColor: Color = MaterialTheme.colorScheme.onBackground,
     enabled: Boolean = true,
+    darkenOnDisable: Boolean = false,
     leadingIcon: @Composable (() -> Unit)? = null,
 ) {
 
@@ -89,8 +90,10 @@ fun SliderPref(
         TextPref(
             title = title,
             modifier = modifier,
+            darkenOnDisable = darkenOnDisable,
             textColor = textColor,
             minimalHeight = true,
+            enabled = enabled,
             leadingIcon = leadingIcon,
         )
 
@@ -124,6 +127,4 @@ fun SliderPref(
         }
 
     }
-
-
 }

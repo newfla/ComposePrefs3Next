@@ -53,6 +53,7 @@ fun EditTextPref(
     dialogBackgroundColor: Color = MaterialTheme.colorScheme.background,
     textColor: Color = MaterialTheme.colorScheme.onBackground,
     enabled: Boolean = true,
+    darkenOnDisable: Boolean = false
 ) {
 
     var showDialog by rememberSaveable { mutableStateOf(false) }
@@ -104,6 +105,7 @@ fun EditTextPref(
         title = title,
         modifier = modifier,
         summary = summary,
+        darkenOnDisable = darkenOnDisable,
         textColor = textColor,
         enabled = enabled,
         onClick = { if (enabled) showDialog = !showDialog },
@@ -135,7 +137,6 @@ fun EditTextPref(
                 )
             },
             confirmButton = {
-
                 TextButton(
                     modifier = Modifier.padding(end = 16.dp),
                     onClick = {
