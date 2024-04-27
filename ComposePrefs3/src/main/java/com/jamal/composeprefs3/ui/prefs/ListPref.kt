@@ -70,6 +70,7 @@ fun ListPref(
     buttonColor: Color = MaterialTheme.colorScheme.primary,
     enabled: Boolean = true,
     leadingIcon: @Composable (() -> Unit)? = null,
+    darkenOnDisable: Boolean = false,
     entries: Map<String, String> = mapOf(), //TODO: Change to List?
 ) {
 
@@ -106,9 +107,10 @@ fun ListPref(
             else -> summary
         },
         leadingIcon = leadingIcon,
+        darkenOnDisable = darkenOnDisable,
         modifier = modifier,
         textColor = textColor,
-        enabled = true,
+        enabled = enabled,
         onClick = { if (enabled) showDialog = !showDialog },
     )
 

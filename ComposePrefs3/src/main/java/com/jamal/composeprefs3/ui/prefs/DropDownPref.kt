@@ -54,6 +54,7 @@ fun DropDownPref(
     textColor: Color = MaterialTheme.colorScheme.onBackground,
     enabled: Boolean = true,
     leadingIcon: @Composable (() -> Unit)? = null,
+    darkenOnDisable: Boolean = false,
     entries: Map<String, String> = mapOf()
 ) {
 
@@ -94,6 +95,7 @@ fun DropDownPref(
                 else -> summary
             },
             leadingIcon = leadingIcon,
+            darkenOnDisable = darkenOnDisable,
             textColor = textColor,
             enabled = enabled,
             onClick = {

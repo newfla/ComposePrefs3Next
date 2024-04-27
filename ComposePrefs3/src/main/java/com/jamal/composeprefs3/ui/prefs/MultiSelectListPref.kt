@@ -61,6 +61,7 @@ fun MultiSelectListPref(
     textColor: Color = MaterialTheme.colorScheme.onBackground,
     enabled: Boolean = true,
     leadingIcon: @Composable (() -> Unit)? = null,
+    darkenOnDisable: Boolean = false,
     entries: Map<String, String> = mapOf() //TODO: Change to List?
 ) {
 
@@ -101,8 +102,9 @@ fun MultiSelectListPref(
         modifier = modifier,
         summary = summary,
         leadingIcon = leadingIcon,
+        darkenOnDisable = darkenOnDisable,
         textColor = textColor,
-        enabled = true,
+        enabled = enabled,
         onClick = { if (enabled) showDialog = !showDialog },
     )
 

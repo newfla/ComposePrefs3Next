@@ -65,7 +65,8 @@ fun EditTextPref(
     dialogBackgroundColor: Color = MaterialTheme.colorScheme.background,
     textColor: Color = MaterialTheme.colorScheme.onBackground,
     enabled: Boolean = true,
-    leadingIcon: @Composable (() -> Unit)? = null
+    leadingIcon: @Composable (() -> Unit)? = null,
+    darkenOnDisable: Boolean = false
 ) {
 
     var showDialog by rememberSaveable { mutableStateOf(false) }
@@ -117,6 +118,7 @@ fun EditTextPref(
         title = title,
         modifier = modifier,
         summary = summary,
+        darkenOnDisable = darkenOnDisable,
         textColor = textColor,
         enabled = enabled,
         leadingIcon = leadingIcon,
