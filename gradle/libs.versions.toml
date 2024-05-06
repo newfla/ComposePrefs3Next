@@ -15,7 +15,7 @@ lifecycle-runtime-ktx = {module = "androidx.lifecycle:lifecycle-runtime-ktx", ve
 material = {module = "com.google.android.material:material", version = "1.11.0"}
 material3 = {module = "androidx.compose.material3:material3", version = "1.2.1"}
 material3-window-size = {module = "androidx.compose.material3:material3-window-size-class", version ="1.2.1"}
-datastore-preferences = {module = "androidx.datastore:datastore-preferences", version = "1.1.0" }
+datastore-preferences = {module = "androidx.datastore:datastore-preferences", version = "1.1.1" }
 ui-test-junit4 = {module = "androidx.compose.ui:ui-test-junit4", version.ref = "androidx-compose-version"}
 junit =  {module = "junit:junit", version = "4.13.2"}
 ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "androidx-compose-version"}
