@@ -1,5 +1,5 @@
 [versions]
-androidx-compose-version = "1.6.6"
+androidx-compose-version = "1.6.7"
 gradle = "8.3.2"
 kotlin-gradle-plugin = "1.8.21"
 
