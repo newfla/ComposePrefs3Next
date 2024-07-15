@@ -1,6 +1,6 @@
 [versions]
 androidx-compose-version = "1.6.8"
-gradle = "8.4.0"
+gradle = "8.5.1"
 kotlin-gradle-plugin = "1.8.21"
 
 [libraries]
