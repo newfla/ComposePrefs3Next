@@ -1,7 +1,7 @@
 [versions]
 androidx-compose-version = "1.6.8"
 gradle = "8.4.0"
-kotlin-gradle-plugin = "1.8.21"
+kotlin-gradle-plugin = "2.0.10"
 
 [libraries]
 activity-compose = {module = "androidx.activity:activity-compose", version = "1.9.1" }
