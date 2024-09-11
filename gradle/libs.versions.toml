@@ -1,10 +1,10 @@
 [versions]
-androidx-compose-version = "1.7.0"
+androidx-compose-version = "1.7.1"
 gradle = "8.6.0"
 kotlin-gradle-plugin = "1.8.21"
 
 [libraries]
-activity-compose = {module = "androidx.activity:activity-compose", version = "1.9.1" }
+activity-compose = {module = "androidx.activity:activity-compose", version = "1.9.2" }
 compose_ui = {module = "androidx.compose.ui:ui", version.ref = "androidx-compose-version"}
 core-ktx = {module = "androidx.core:core-ktx", version = "1.13.1" }
 espresso-core = {module = "androidx.test.espresso:espresso-core", version = "3.6.1"}
