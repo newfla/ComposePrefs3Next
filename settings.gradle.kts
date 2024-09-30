@@ -1,3 +1,11 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -6,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "ComposePrefs3 Sample"
-include ':app'
-include ':ComposePrefs3'
+include(":app")
+include(":ComposePrefs3")
