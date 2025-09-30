@@ -5,6 +5,7 @@ androidx-compose = "1.9.2"
 activy-compose = "1.11.0"
 material3 = "1.4.0"
 material = "1.13.0"
+material-core = "1.7.8"
 core-ktx = "1.17.0"
 espresso-core = "3.7.0"
 lifecycle-runtime-ktx = "2.9.4"
@@ -28,6 +29,7 @@ espresso-core = {module = "androidx.test.espresso:espresso-core", version.ref = 
 ext-junit = {module = "androidx.test.ext:junit", version.ref = 'ext-junit'}
 lifecycle-runtime-ktx = {module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycle-runtime-ktx"}
 material = {module = "com.google.android.material:material", version.ref = "material"}
+material-icons-extended = {module = "androidx.compose.material:material-icons-extended", version.ref = "material-core"}
 material3 = {module = "androidx.compose.material3:material3", version.ref = "material3"}
 material3-window-size = {module = "androidx.compose.material3:material3-window-size-class", version.ref = "material3"}
 datastore-preferences = {module = "androidx.datastore:datastore-preferences", version.ref = "datastore-preferences"}
