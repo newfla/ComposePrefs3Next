@@ -48,6 +48,7 @@ dependencies {
 
     implementation (libs.core.ktx)
     implementation (libs.material)
+    implementation(libs.material.icons.extended)
     implementation (libs.compose.ui)
     implementation (libs.material3)
     implementation (libs.material3.window.size)
