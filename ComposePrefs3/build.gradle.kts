@@ -51,9 +51,9 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
 
-                groupId = "com.github.newfla"
-                artifactId = "ComposePrefs3Next"
-                version = "1.0.14"
+                groupId = "com.github.jamalmulla"
+                artifactId = "ComposePrefs3"
+                version = "1.0.7"
             }
         }
     }
