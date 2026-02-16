@@ -1,7 +1,7 @@
 [versions]
 agp = "9.0.0"
 kotlin = "2.3.10"
-androidx-compose = "1.10.2"
+androidx-compose = "1.10.3"
 activy-compose = "1.12.4"
 material3 = "1.4.0"
 material = "1.13.0"
