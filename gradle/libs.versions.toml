@@ -2,7 +2,7 @@
 agp = "9.1.0"
 kotlin = "2.3.10"
 androidx-compose = "1.10.5"
-activy-compose = "1.12.4"
+activy-compose = "1.13.0"
 material3 = "1.4.0"
 material = "1.13.0"
 material-core = "1.7.8"
