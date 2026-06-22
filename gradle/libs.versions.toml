@@ -16,7 +16,7 @@ junit  = "4.13.2"
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 android-library = { id = "com.android.library", version.ref = "agp" }
-maven-publish = { id = "com.vanniktech.maven.publish", version = "0.36.0" }
+maven-publish = { id = "com.vanniktech.maven.publish", version = "0.37.0" }
 compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 
 
