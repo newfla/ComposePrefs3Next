@@ -7,11 +7,11 @@ plugins {
 
 android {
 
-    compileSdk = 36
+    compileSdk = 37
     defaultConfig {
         applicationId = "com.jamal.composeprefs3sample"
         minSdk = 26
-        targetSdk = 36
+        targetSdk = 37
         versionCode = 1
         versionName = "1.0"
 
